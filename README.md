@@ -20,8 +20,8 @@ Once you've cloned the `master` brunch, run `npm install` to install all depende
 start a development server:
 
 ```bash
-npm run dev
+npm install 
 
-# or start the server and open the app in a new browser tab
+start the server and open the app in a new browser tab
 npm run dev -- --open
 ```
