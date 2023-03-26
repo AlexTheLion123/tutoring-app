@@ -14,17 +14,19 @@
       <img id="student-image" src="src/lib/images/student.png" alt="Mountains">
     </div>
 
-    <h1 class = "main-heading">Helping students help you</h1>
+    <h1 class = "main-heading">Tutoring that works for you</h1>
     <p class = "main-text">
-        Many job requirements demand some level of experience from entry level positions,
-        yet newly graduate students lack such an experience.<br>
-        Many entrepreneurs and startups struggle with raising capital, yet at the beginning
-      of their entrepreneurial journey, they are tasked with many roles, where some come with 
-      many challenges.
+      University provided tutoring in South Africa is hit or miss, with tutors being underpaid and having to do unrelated menial tasks, and students being unhappy with the quality of tutoring provided.
       <br>
+      
+      <br>  
+      Private tutoring is unafforable and often overkill for most students
       <br>
-      With Varsity Plug, it provides entrepreneurs and students in their penultimate and
-      final year a place to connect and work with each other.
+      Most alternative group tutoring platforms are not flexible in their prices, the courses they offer, their event locations, and aren't transparent about tutor performance.
+      <br>
+
+      <br>
+      Varsity Plug gives tutors the control to host lessons wherever they want and charge what they think they are worth, while having entirely transparent reviews for students
     </p>
 
     <div class="register-button" on:click={()=>isFormShown=true}>Register</div>
@@ -166,7 +168,6 @@
     width: 100%;
     height: 600px;
 
-    border-bottom: 5px solid rgb(100, 200, 100);
   }
 
 

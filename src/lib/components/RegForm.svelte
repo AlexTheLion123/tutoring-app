@@ -13,13 +13,55 @@
         <input type="text" placeholder="Enter your email">
         <input type="text" placeholder="Enter your password">
         <textarea name="message" cols="40" rows="5" id="message" placeholder="Enter a description of your academic and work experience"></textarea>
+        
+        <div class="radio-buttons">
+            <label for="Student">Student</label>
+            <input type="radio" id="Student" name="user_type" value="Student">
 
+            <label for="Tutor">Tutor</label>
+            <input type="radio" id="Tutor" name="user_type" value="Tutor">
+        </div>
+
+        <div class="register-button">Register</div>
+        
     </form>
 </div>
 
 <style>
+    .register-button {
+      width: 200px;
+      height: 50px;
+      margin: 30px 0px;
+      text-align: center;
 
-  input {
+      background: rgb(144, 144, 248);
+      border-radius: 5px;
+      color: white;
+      font-size: 1.5rem;
+
+      grid-area: registerButton;
+      place-self: center;
+
+      display: grid;
+      place-items: center;
+    }
+
+    .register-button:hover {
+        cursor: pointer;
+    }
+
+    .radio-buttons {
+        display: flex;
+        justify-content: flex-start
+    }
+
+    .radio-buttons input {
+        width: 50px;
+        margin-top: 5px;
+    }
+
+
+    input {
         display: block
     }
 
@@ -53,7 +95,7 @@
         box-shadow: 0 0 1px rgb(0, 162, 255);
         border-color: rgb(187, 183, 183);
     }
-    
+
     i {
         margin: 10px;
         cursor: pointer;

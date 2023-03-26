@@ -1,7 +1,7 @@
 <script context="module">
     export async function load({ fetch }) {
         const res = await fetch('/api/jobs');
-        console.log("hello")
+        
         if (res.ok) return {props: {jobs: await res.json()}};
         return { // if failed
             status: res.status,
@@ -21,21 +21,21 @@
 
     function filterJobs() {
         jobs = jobsCopy.filter(item => {
-            return item.companyName.substr(0, value.length).toUpperCase() == value.toUpperCase();
+            return item.student_name.substr(0, value.length).toUpperCase() == value.toUpperCase();
         })
     }
 </script>
 
 <div class="container">
     <div class="search-content">
-        <input type="text" placeholder="Enter a company name" bind:value on:input={filterJobs}>
+        <input type="text" placeholder="Enter a tutor name" bind:value on:input={filterJobs}>
         <i class="fas fa-search"></i>
     </div>
     
     <div class="container-wrapper">
-        {#each jobs as {logo, companyName, requiredSkills, jobDescription, numApplicants, reviews}, id}
+        {#each jobs as {logo, student_name, requiredSkills, jobDescription, numApplicants, reviews}, id}
             <Job {logo} rating={reviews} {id}>
-                <svelte:fragment slot = "companyName">{companyName}</svelte:fragment>
+                <svelte:fragment slot = "student_name">{student_name}</svelte:fragment>
                 <svelte:fragment slot = "description">{jobDescription}</svelte:fragment>
                 <svelte:fragment slot = "requiredSkills">{requiredSkills}</svelte:fragment>
                 <svelte:fragment slot = "numApplicants">{numApplicants}</svelte:fragment>

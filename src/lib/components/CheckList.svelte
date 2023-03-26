@@ -7,17 +7,17 @@
         </h2>
     
         <div class="grid-content">
-                <i class="fas fa-check-circle"></i>
-                <p>Cater to both the needs of startups and students.</p>
-                
-                <i class="fas fa-check-circle"></i>
-                <p>Get to work with students equipped with the necessary tools for your job.</p>
-                
-                <i class="fas fa-check-circle"></i>
-                <p>Showcase your portfolio to potential employers.</p>
-                
-                <i class="fas fa-check-circle"></i>
-                <p>Let your skills earn you an income.</p>
+            <i class="fas fa-check-circle"></i>
+            <p>Cater to both the needs of tutors and students.</p>
+            
+            <i class="fas fa-check-circle"></i>
+            <p>Tutors choose their own rates, locations, and times</p>
+            
+            <i class="fas fa-check-circle"></i>
+            <p>Students have access to higher quality tutoring, which is still more affordable than private tutoring</p>
+            
+            <i class="fas fa-check-circle"></i>
+            <p>Let your skills earn you an income.</p>
         </div>
 
         <div class="register-button">Register</div>
