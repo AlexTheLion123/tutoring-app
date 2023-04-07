@@ -1,18 +1,16 @@
 # Varsity Plug
 
-Platform where students and startups can connect to work on projects.
+Platform where students and tutors can connect
 
 ## Overview
-Varisty Plug is a submission to the SOLIDitech and Entelect Hackathon, hosted by UCT DevSoc and Google Developer Student Clubs.
+Varisty Plug is a submission to the HackthePlan Hackathon hosted by Major league Hacking(MLH)
 
 ## Problem
 - Significant proportion of students lack the experience needed.
 - Startups sometimes lack the expertise of a given task that students can perform.
 
 ## Solution
-- A digital platform that connects students and startups.
-- Students gain experience by applying skills learnt whilst in varsity.
-- Startups can hire skills from students at affordable rates.
+- A digital platform that connects students and tutors.
 
 ## Running the project on your local machine
 
